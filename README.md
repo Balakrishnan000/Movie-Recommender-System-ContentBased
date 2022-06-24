@@ -7,7 +7,7 @@ Dataset - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
 ## How to Host the Web Application?
 1. Clone the repository into your local environment using command git clone https://github.com/Balakrishnan000/Movie-Recommender-System-ContentBased.git <br>
-2. On the terminal, run pip install -r requirements.txt All the required packages will now be installed.<br>
+2. Go to the Directory and on the terminal, run pip install -r requirements.txt All the required packages will now be installed.<br>
 3. On the terminal, run py -m streamlit run app.py <br>
 
 The web app will now be hosted on your localhost.
@@ -24,7 +24,11 @@ Link: https://movie-rec-sys-bala.herokuapp.com/
 4. Do Model Building
 5. Convert the result as a .pkl file using pickle module
 6. Deploy the WebApp on Heroku.
-   Note: Used TMDB API for fetching the poster of the movie.
+7. Note: Used TMDB API for fetching the poster image of the movie.
+8. Note: Used FormSubmit for Contact Us form to forward messages to my mailbox.
 
-## Final Output: 
+## Final Output Screenshots: 
 ![image](https://user-images.githubusercontent.com/70379877/175554131-dfc35a5b-3381-4473-ae9c-1d5ecdd80169.png)
+![image](https://user-images.githubusercontent.com/70379877/175555382-8d35656c-4e0b-4a30-811a-421cb1fdd635.png)
+![image](https://user-images.githubusercontent.com/70379877/175555695-74980de6-9922-4715-861b-c54e72cdb41d.png)
+
