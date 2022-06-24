@@ -3,7 +3,7 @@ This is a Content Based Recommender System built based on Python and uses Stream
 
 
 Dataset used - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
-(Also both the csv files are added in the GitHub LFS)
+(Also both the csv files are added in the GitHub Repo using GitHub LFS)
 
 ## How to Host the Web Application?
 1. Clone the repository into your local environment using command git clone https://github.com/Balakrishnan000/Movie-Recommender-System-ContentBased.git <br>
