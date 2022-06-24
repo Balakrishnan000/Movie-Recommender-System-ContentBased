@@ -27,6 +27,9 @@ Link: https://movie-rec-sys-bala.herokuapp.com/
 7. Note: Used TMDB API for fetching the poster image of the movie.
 8. Note: Used FormSubmit for Contact Us form to forward messages to my mailbox.
 
+## Watch this Video to get the Thought-Process and Idea of Project:
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XfGXjw0um0E/0.jpg)](https://www.youtube.com/watch?v=XfGXjw0um0E)
+
 ## Final Output Screenshots: 
 ![image](https://user-images.githubusercontent.com/70379877/175554131-dfc35a5b-3381-4473-ae9c-1d5ecdd80169.png)
 ![image](https://user-images.githubusercontent.com/70379877/175555382-8d35656c-4e0b-4a30-811a-421cb1fdd635.png)
