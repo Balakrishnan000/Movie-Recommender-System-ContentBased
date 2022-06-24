@@ -2,7 +2,7 @@
 This is a Content Based Recommender System built based on Python and uses Streamlit (open source app framework in Python) for WebApp.
 
 
-Dataset - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
+Dataset used - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 (Also both the csv files are added in the GitHub LFS)
 
 ## How to Host the Web Application?
