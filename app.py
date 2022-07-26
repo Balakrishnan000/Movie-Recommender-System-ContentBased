@@ -1,10 +1,12 @@
 from datetime import datetime
+from enum import auto
 
 import streamlit as st
 import pickle 
 import pandas as pd
 import requests
 import streamlit.components.v1 as components
+from PIL import Image
 
 COMMENT_TEMPLATE_MD = """{} - {}
 > {}"""
@@ -23,6 +25,10 @@ movie_dict = pickle.load(open('movie_dict.pkl','rb'))
 movies = pd.DataFrame(movie_dict)
 
 similarity = pickle.load(open('similarity.pkl','rb'))
+
+#LOGO
+original_title = '<p style="color:Red; font-size:350%; text-align:center">MovFlix</p>'
+st.markdown(original_title, unsafe_allow_html=True)
 
 st.title('Movie Recommender System - Content Based')
 selected_movie_name = st.selectbox(
@@ -99,7 +105,7 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-#Removeing the made by 
+#Removing the made by 
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
